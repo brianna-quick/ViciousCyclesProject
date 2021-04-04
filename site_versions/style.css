@@ -15,6 +15,7 @@ body {
     background-color: dimgray;
     color: #ffecdb;
     margin:10%;
+    line-height: 225%;
 }
 #logo {
     display: block;
@@ -29,7 +30,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    padding: 5px;
     height: 50px;
     width: 50px;
 }
