@@ -13,7 +13,7 @@ li {
   }
 body {
     background-color: #4d4d4d;
-    color: #ffecdb;
+    color: #ffac75;
     margin:10%;
     line-height: 225%;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,5 +48,8 @@ h2 img {
     width:50px;
 }
 header {
-    background-color: white;
+    background-color: mintcream;
+}
+a {
+    color:#68d4d4;
 }
