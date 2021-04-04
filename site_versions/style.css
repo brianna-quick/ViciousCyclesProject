@@ -12,8 +12,8 @@ li {
     margin: 30px;
   }
 body {
-    background-color: black;
-    color: coral;
+    background-color: dimgray;
+    color: #ffecdb;
     margin:10%;
 }
 #logo {
@@ -44,4 +44,7 @@ h2 img {
     display:block;
     height:50px;
     width:50px;
+}
+header {
+    background-color: white;
 }
