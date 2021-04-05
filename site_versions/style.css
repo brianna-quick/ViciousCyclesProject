@@ -31,15 +31,16 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
+    margin: 0;
     height: 50px;
     width: 50px;
 }
 h2 img {
     float: right;
     max-width: 400px;
-    width: 30%;
-    padding: 50px;
+    width: 40%;
+    padding: 15px;
 }
 
 .social_media_image{
