@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -8,12 +11,12 @@ ul {
     padding: 0;
   }
 li {
-    display: inline;
+    display: inline-flex;
     margin: 30px;
   }
 body {
     background-color: #4d4d4d;
-    color: #ffac75;
+    color: #68d4d4;
     margin:10%;
     line-height: 225%;
     font-family: Arial, Helvetica, sans-serif;
@@ -31,15 +34,15 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
-    margin: 0;
+    padding: 5px;
+    margin: 2px;
     height: 50px;
     width: 50px;
 }
 .social_media_image {
     display:block;
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
 }
 header {
     background-color: mintcream;
@@ -52,6 +55,7 @@ label {
     font-size: 24px;
     padding: 8px;
     margin-left: 0;
+    display: inline-block;
 }
 input[type=text] {
     font-size: 16px;
@@ -67,18 +71,44 @@ fieldset {
     margin: 15px;
     justify-content: center;
     border: 0;
+    box-sizing: border-box;
 }
 textarea {
     border-radius: 4px;
 }
 input[type=submit] {
     margin-top: 15px;
+    width: 100px;
+    margin-right: 0;
+    margin-left: auto;
 }
 legend {
     color: #68d4d4;
 }
 #request, #biking{
     margin: 15px 0 15px 0;
-    width: 600px;
-    border: double;
+    width: 100%;
+    border: groove;
+    border-color: #ffac75;
+    color: #ffac75;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=radio] {
+    margin: 0;
+    margin-right: 10px;
+}
+input[type=checkbox] {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#mainform {
+    display: flex;
+    flex-direction: column;
+}
+#request span {
+    position: relative;
+    left: 10px;
 }
