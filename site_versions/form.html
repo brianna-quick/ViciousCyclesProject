@@ -11,7 +11,7 @@
             <li><a href="https://wcet3.waketech.edu/mquick/WEB140/ViciousCyclesProject/site_versions/index.html"><h1>Home</h1></a></li>
             <li><a href="#"><h1>Page 2</h1></a></li>
             <li><a href="#"><h1>Page 3</h1></a></li>
-            <li><a href="#"><h1>Page 4</h1></a></li>
+            <li><a href="file:///Users/briannaquick/Documents/GitHub/ViciousCyclesProject/site_versions/form.html?"><h1>Contact</h1></a></li>
         </ul>
         <form>
             <fieldset>
@@ -21,26 +21,32 @@
                 <input type="text" id="lastname" name="freetext" value="lastname">
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="freetext" value="email">
-                <span style="white-space:nowrap">
-                    <input type="radio" id="radio1" name="radiobuttons" value="radio1">
-                    <label for="radio1">General Inquiry</label>
-                </span>
-                <span style="white-space:nowrap">
-                    <input type="radio" id="radio2" name="radiobuttons" value="radio2">
-                    <label for="radio2">Bicycle Maintenance and Service</label>
-                </span>
-                <span style="white-space:nowrap">
-                    <input type="checkbox" id="checkbox1" name="checkboxes" value="checkbox1">
-                    <label for="checkbox1">Casual Biking</label>
-                </span>
-                <span style="white-space:nowrap">
-                    <input type="checkbox" id="checkbox2" name="checkboxes" value="checkbox2">
-                    <label for="checkbox2">Commuter Biking</label>
-                </span>
-                <span style="white-space:nowrap">
-                    <input type="checkbox" id="checkbox3" name="checkboxes" value="checkbox3">
-                    <label for="checkbox3">Fitness Biking</label>
-                </span>
+                <fieldset id="inquiry">
+                    <p>Type of Request</p>
+                    <span style="white-space:nowrap">
+                        <input type="radio" id="radio1" name="radiobuttons" value="radio1">
+                        <label for="radio1">General Inquiry</label>
+                    </span>
+                    <span style="white-space:nowrap">
+                        <input type="radio" id="radio2" name="radiobuttons" value="radio2">
+                        <label for="radio2">Bicycle Maintenance and Service</label>
+                    </span>
+                </fieldset>
+                <fieldset id="biking">
+                    <p>What type of biking do you partake in?</p>
+                    <span style="white-space:nowrap">
+                        <input type="checkbox" id="checkbox1" name="checkboxes" value="checkbox1">
+                        <label for="checkbox1">Casual Biking</label>
+                    </span>
+                    <span style="white-space:nowrap">
+                        <input type="checkbox" id="checkbox2" name="checkboxes" value="checkbox2">
+                        <label for="checkbox2">Commuter Biking</label>
+                    </span>
+                    <span style="white-space:nowrap">
+                        <input type="checkbox" id="checkbox3" name="checkboxes" value="checkbox3">
+                        <label for="checkbox3">Fitness Biking</label>
+                    </span>
+                </fieldset>
                 <label for="select">How often do you ride your bike?</label>
                 <select>
                     <option value="a">I bike monthly</option>

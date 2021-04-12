@@ -64,6 +64,7 @@ select {
 fieldset {
     font-size: 16px;
     display: grid;
+    margin: 15px;
 }
 textarea {
     border-radius: 4px;
@@ -71,5 +72,9 @@ textarea {
 input[type=submit] {
     margin-top: 15px;
 }
-
-
+#biking p{
+    color: #68d4d4;
+}
+#inquiry p{
+    color: #68d4d4;
+}
