@@ -13,7 +13,7 @@
             <li><a href="#"><h1>Page 3</h1></a></li>
             <li><a href="file:///Users/briannaquick/Documents/GitHub/ViciousCyclesProject/site_versions/form.html?"><h1>Contact</h1></a></li>
         </ul>
-        <form>
+        <form id="form">
             <fieldset>
                 <label for="firstname">First name:</label>
                 <input type="text" id="firstname" name="freetext" placeholder="Jane">
@@ -21,28 +21,28 @@
                 <input type="text" id="lastname" name="freetext" placeholder="Doe">
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="freetext" placeholder="janedoe@email.com">
-                <fieldset id="inquiry">
-                    <p>Type of Request</p>
-                    <span style="white-space:nowrap">
+                <fieldset id="request">
+                    <legend>Type of Request</legend>
+                    <span>
                         <input type="radio" id="radio1" name="radiobuttons" value="radio1">
                         <label for="radio1">General Inquiry</label>
                     </span>
-                    <span style="white-space:nowrap">
+                    <span>
                         <input type="radio" id="radio2" name="radiobuttons" value="radio2">
                         <label for="radio2">Bicycle Maintenance and Service</label>
                     </span>
                 </fieldset>
                 <fieldset id="biking">
-                    <p>What type of biking do you partake in?</p>
-                    <span style="white-space:nowrap">
+                    <legend>What type of biking do you partake in?</legend>
+                    <span>
                         <input type="checkbox" id="checkbox1" name="checkboxes" value="checkbox1">
                         <label for="checkbox1">Casual Biking</label>
                     </span>
-                    <span style="white-space:nowrap">
+                    <span>
                         <input type="checkbox" id="checkbox2" name="checkboxes" value="checkbox2">
                         <label for="checkbox2">Commuter Biking</label>
                     </span>
-                    <span style="white-space:nowrap">
+                    <span>
                         <input type="checkbox" id="checkbox3" name="checkboxes" value="checkbox3">
                         <label for="checkbox3">Fitness Biking</label>
                     </span>

@@ -65,6 +65,8 @@ fieldset {
     font-size: 16px;
     display: grid;
     margin: 15px;
+    justify-content: center;
+    border: 0;
 }
 textarea {
     border-radius: 4px;
@@ -72,13 +74,11 @@ textarea {
 input[type=submit] {
     margin-top: 15px;
 }
-#biking p{
+legend {
     color: #68d4d4;
-    font-size: 20px;
-    margin: 3px 0 10px 0;
 }
-#inquiry p{
-    color: #68d4d4;
-    font-size: 20px;
-    margin: 3px 0 10px 0;
+#request, #biking{
+    margin: 15px 0 15px 0;
+    width: 600px;
+    border: double;
 }
