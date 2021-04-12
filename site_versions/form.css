@@ -112,3 +112,6 @@ input[type=checkbox] {
     position: relative;
     left: 10px;
 }
+#subpages li {
+    font-size: 16px;
+}
