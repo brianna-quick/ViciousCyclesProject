@@ -36,14 +36,7 @@ footer {
     height: 50px;
     width: 50px;
 }
-#bike_picture {
-    float: right;
-    max-width: 400px;
-    width: 40%;
-    padding: 30px;
-}
-
-.social_media_image{
+.social_media_image {
     display:block;
     height:50px;
     width:50px;
@@ -53,5 +46,29 @@ header {
 }
 a {
     color:#68d4d4;
-    font-size: 14px;
 }
+}
+label {
+    font-size: 22px;
+    padding: 8px;
+    margin-left: 0;
+}
+input[type=text] {
+    font-size: 16px;
+    border-radius: 4px;
+}
+select {
+    font-size: 16px;
+    border-radius: 4px;
+}
+fieldset {
+    font-size: 16px;
+    display: grid;
+}
+textarea {
+    border-radius: 4px;
+}
+input[type=submit] {
+    margin-top: 15px;
+}
+
