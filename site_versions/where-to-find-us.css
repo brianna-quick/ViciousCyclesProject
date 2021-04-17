@@ -17,7 +17,7 @@ body {
     margin:10%;
     line-height: 225%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 30px;
 }
 #logo {
     display: block;
@@ -39,7 +39,7 @@ footer {
 }
 #bike_picture {
     float: right;
-    max-width: 400px;
+    max-width: 350px;
     width: 40%;
     padding: 30px;
 }
