@@ -39,7 +39,7 @@ footer {
 }
 #bike_picture {
     float: right;
-    max-width: 400px;
+    max-width: 375px;
     width: 40%;
     padding: 30px;
 }
@@ -58,4 +58,9 @@ a {
 }
 #subpages a {
     font-size: 16px;
+}
+#heading {
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
 }
