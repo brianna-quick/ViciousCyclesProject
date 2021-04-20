@@ -50,7 +50,6 @@ header {
 a {
     color:#68d4d4;
 }
-}
 label {
     font-size: 24px;
     padding: 8px;
@@ -122,4 +121,9 @@ input[type=checkbox] {
     #subpages li{
         flex-basis: 25%;
     }
+}
+#footerlogo {
+    text-align: left;
+    width: 35%;
+    background-color: mintcream;
 }

@@ -77,3 +77,6 @@ a {
         flex-basis: 25%;
     }
 }
+#findus li{
+    display: block;
+}

@@ -68,3 +68,7 @@ a {
         flex-basis: 25%;
     }
 }
+#bikeTypes {
+    display: block;
+    color: #FFFFFF;
+}
