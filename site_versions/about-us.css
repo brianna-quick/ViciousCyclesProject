@@ -60,7 +60,16 @@ a {
     font-size: 16px;
 }
 #heading {
-    font-size: 40px;
+    font-size: 38px;
     color: white;
     text-decoration: underline;
+    white-space: nowrap;
+}
+@media all and (max-width: 800px) {  
+    #subpages {
+        flex-wrap: wrap;
+    }
+    #subpages li{
+        flex-basis: 25%;
+    }
 }

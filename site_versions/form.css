@@ -115,3 +115,11 @@ input[type=checkbox] {
 #subpages li {
     font-size: 16px;
 }
+@media all and (max-width: 800px) {  
+    #subpages {
+        flex-wrap: wrap;
+    }
+    #subpages li{
+        flex-basis: 25%;
+    }
+}
