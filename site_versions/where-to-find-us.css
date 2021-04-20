@@ -6,10 +6,14 @@ ul {
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 li {
     display: inline;
-    margin: 30px;
+    padding: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: nowrap;
   }
 body {
     background-color: #4d4d4d;
@@ -57,6 +61,7 @@ a {
     font-size: 14px;
 }
 #subpages a {
+    float: left;
     font-size: 16px;
 }
 #heading {
@@ -64,3 +69,10 @@ a {
     color: white;
     text-decoration: underline;
 }
+@media all and (max-width: 700px) {  
+    #subpages {
+        flex-wrap: wrap;
+    }
+    #subpages li{
+        flex-basis: 25%;
+    }
